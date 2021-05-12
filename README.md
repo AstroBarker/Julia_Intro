@@ -22,3 +22,6 @@ We will use:
 * [PyCall](https://juliapackages.com/p/pycall)
 * [PyPlot](https://juliapackages.com/p/pyplot)
 * [DataFrames](https://juliapackages.com/p/dataframes)
+
+Also useful is [HDF5.jl])(https://juliapackages.com/p/hdf5) for easily reading and writing HDF5 files.
+I provide an example function using this in [HDF5_example.jl](HDF5_example.jl).
