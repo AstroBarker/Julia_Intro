@@ -1,0 +1,6 @@
+*.gif
+*.ipynb_checkpoints
+*.tar.gz
+enzo_tiny_cosmology/
+__pycache__/
+

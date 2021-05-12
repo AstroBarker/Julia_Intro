@@ -22,7 +22,7 @@ This is better!
 Returns Hilbert matrix of size n
 """
 function Hilbert_static( n::Int64 )
-  matrix::Array{Float64, 1} # or Vector{Float64}
+  matrix::Array{Float64, 2} = zeros( n, n ) # or Vector{Float64}
 
   for i in 1:n
     for j in 1:n
@@ -32,6 +32,3 @@ function Hilbert_static( n::Int64 )
   
   return matrix
 end
-
-
-println( Hilbert_dynamic(3) )
