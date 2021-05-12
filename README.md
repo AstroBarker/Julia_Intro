@@ -1,6 +1,6 @@
 # Intro to Julia
 
-This repo has some basics I put together to introduce colleagues to the Julia programming language.
+This repo has some basics I put together to introduce colleagues to the Julia programming language: [slides](julia_basics.pdf) and [notebook](julia_notebook.ipynb).
 They are not meant to be comprehensive, focusing on overarching themes and introducing syntax for some common use cases.
 More resources are listed in [resources.md](resources.md).
 
@@ -14,7 +14,7 @@ Once there you may type `]` to enter the package manager mode followed by `add I
 `exit()` to exit.
 All other dependencies may be installed in the notebook.
 
-Alternatively, the script `setup.jl` can be ran with `julia setup.jl` and will install all the packages used here and set Julia to use your Python installation.
+Alternatively, the script [setup.jl](setup.jl) can be ran with `julia setup.jl` and will install all the packages used here and set Julia to use your Python installation.
 
 We will use:
 * [Plots](https://docs.juliaplots.org/latest/)
@@ -23,5 +23,5 @@ We will use:
 * [PyPlot](https://juliapackages.com/p/pyplot)
 * [DataFrames](https://juliapackages.com/p/dataframes)
 
-Also useful is [HDF5.jl])(https://juliapackages.com/p/hdf5) for easily reading and writing HDF5 files.
+Also useful is [HDF5.jl](https://juliapackages.com/p/hdf5) for easily reading and writing HDF5 files.
 I provide an example function using this in [HDF5_example.jl](HDF5_example.jl).
